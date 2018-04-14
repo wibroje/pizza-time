@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>All Pizza</title>
+</head>
+<body>
+	<% for (let i = 0; i < pizza.length; i++) { %>
+	  <h1><a href="/allpizza/<%= i+1 %>"><%= pizza[i].flavor %></a></h1>
+	<% } %>
+</body>
+</html>
